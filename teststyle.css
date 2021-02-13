@@ -1,0 +1,28 @@
+
+
+.primaryBrand {
+    color: #1BB0CC
+}
+
+.primaryDark {
+    color:#041D38
+}
+
+.primaryLight {
+    color: #FFFFFF
+}
+
+.primaryAccent {
+    color: #C0E1E6
+}
+
+.primaryBright {
+    color: #FF5A00
+}
+
+.header h1 {
+    font-family:'Segoe UI', sans-serif;
+    font-size:28px;
+    font-style:normal;
+    text-align:center;
+}
