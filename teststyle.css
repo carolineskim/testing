@@ -87,6 +87,7 @@ footer {
 div.containerMain {
     height: 540px;
     width: 1280px;
+    position: relative;
     justify-content: center;
   }
 
