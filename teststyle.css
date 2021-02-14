@@ -6,23 +6,27 @@
 /* Colors */
 
 .primaryBrand {
-    color: #1BB0CC
+    color: #1BB0CC;
 }
 
 .primaryDark {
-    color:#041D38
+    color:#041D38;
 }
 
 .primaryLight {
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 .primaryAccent {
-    color: #C0E1E6
+    color: #C0E1E6;
 }
 
 .primaryBright {
-    color: #FF5A00
+    color: #FF5A00;
+}
+
+.white {
+    color: #FFFFFF;
 }
 
 /* Typography */
@@ -32,12 +36,32 @@ title, h2, h2, h3, h4, h5, h6, p {
     font-weight: normal;
 }
 
-title {
-    font-size: 30px;
+h1 {
+    font-size:56px;
 }
 
-h1 {
-    font-size:28px;
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 22px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
 }
 
 /* Sections */
@@ -50,6 +74,7 @@ footer {
 }
 
 /* IDs */
+
 #openingBanner {
     background-image: url("https://images.unsplash.com/photo-1561130627-0456cca0bc4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2702&q=80");
     background-position: center;
@@ -64,3 +89,9 @@ div.containerMain {
     width: 1280px;
     justify-content: center;
   }
+
+.menu {
+    height: 80px;
+    width: 1440px;
+    justify-content: center;
+}
