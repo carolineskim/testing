@@ -84,6 +84,14 @@ footer {
 
 /* Classes */
 
+.menu {
+    height: 80px;
+    width: 1440px;
+    justify-content: center;
+}
+
+/* Main Opener */
+
 div.containerMain {
     height: 540px;
     width: 1280px;
@@ -91,8 +99,11 @@ div.containerMain {
     justify-content: center;
   }
 
-.menu {
-    height: 80px;
-    width: 1440px;
+h1.containerMain {
+    text-align: center;
+    color: #FFFFFF;
+    width: 600px;
+    height: 100px;
+    position: relative;
     justify-content: center;
 }
