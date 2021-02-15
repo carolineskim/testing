@@ -78,12 +78,6 @@ footer {
 
 /* IDs */
 
-#openingBanner {
-    background-image: url("https://images.unsplash.com/photo-1561130627-0456cca0bc4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2702&q=80");
-    background-position: center;
-    background-size: cover;
-    display: block;
-}
 
 /* Classes */
 
@@ -100,10 +94,14 @@ footer {
     width: 1280px;
     position: relative;
     justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1561130627-0456cca0bc4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2702&q=80");
+    background-position: center;
+    background-size: cover;
+    display: block;
   }
 
 .containerMain h1{
-    color: var(--primaryBrand);
+    color: var(--primaryLight);
     text-align: center;
     width: 600px;
     height: 100px;
