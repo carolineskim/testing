@@ -29,7 +29,7 @@
 
 body {
     font-family: 'Alata', 'Futura', sans-serif;
-    font-weight: normal;
+    font-weight: 300;
 }
 
 h1 {
@@ -187,7 +187,7 @@ footer {
 .colorBlock h1 {
     margin: 0 auto;
     margin-bottom: 34px;
-    width: 55%;
+    width: 80%;
     color: var(--primaryLight);
     text-align: center;
 }
@@ -197,6 +197,7 @@ footer {
     width: 55%;
     color: var(--secondaryDark);
     text-align: center;
+    overflow: scroll;
 }
 
 /* Triple Content Boxes */
@@ -204,6 +205,8 @@ footer {
 .boxTripleContainer {
     display: inline-flex;
     align-content: space-between;
+    width: 100%;
+    overflow-x: scroll;
 }
 
 .boxTriple {
@@ -239,4 +242,5 @@ footer {
     color: var(--secondaryDark);
     text-align: left;
     position: relative;
+    overflow: hidden;
 }
