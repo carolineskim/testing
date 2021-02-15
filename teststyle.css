@@ -29,7 +29,8 @@
 
 body {
     font-family: 'Alata', 'Futura', sans-serif;
-    font-weight: 300;
+    font-style: normal;
+    font-weight: 200;
 }
 
 h1 {
@@ -98,6 +99,10 @@ footer {
     padding: 0px 40px;
     line-height: 80px;
     text-decoration: none;
+}
+
+.menu a:hover{
+    color: var(--primaryBrand);
 }
 
 /* Global */
@@ -218,11 +223,13 @@ footer {
     align-content: space-between;
     width: 100%;
     overflow-x: scroll;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .boxTriple {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     height: 540px;
     width: 400px;
     background-color: var(--primaryLight);
@@ -254,4 +261,17 @@ footer {
     text-align: left;
     position: relative;
     overflow: hidden;
+}
+
+.contactIntro h2{
+    margin: auto 0;
+    color: var(--primaryDark);
+    text-align: center;
+}
+
+.contactIntro h6{
+    margin: 0 auto;
+    width: 60%;
+    color: var(--secondaryDark);
+    text-align: center;
 }
