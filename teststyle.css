@@ -95,14 +95,14 @@ footer {
 
 /* Main Opener */
 
-div .containerMain {
+.containerMain div{
     height: 540px;
     width: 1280px;
     position: relative;
     justify-content: center;
   }
 
-h1 .containerMain {
+.containerMain h1{
     color: var(--primaryBrand);
     text-align: center;
     width: 600px;
