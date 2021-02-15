@@ -220,7 +220,8 @@ footer {
 
 .boxTripleContainer {
     display: inline-flex;
-    align-content: space-between;
+    justify-content: center;
+    align-content:center;
     width: 100%;
     overflow-x: scroll;
     padding-left: 40px;
@@ -228,8 +229,7 @@ footer {
 }
 
 .boxTriple {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto 20px;
     height: 540px;
     width: 400px;
     background-color: var(--primaryLight);
