@@ -50,6 +50,7 @@ h4 {
 
 h5 {
     font-size: 22px;
+    text-transform: uppercase;
 }
 
 h6 {
@@ -58,12 +59,6 @@ h6 {
 
 p {
     font-size: 14px;
-}
-
-.footer p {
-    color: var(--primaryLight);
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
 /* Sections */
@@ -76,36 +71,95 @@ footer {
     display: block;
 }
 
-/* IDs */
+.footer p {
+    color: var(--primaryLight);
+    font-size: 14px;
+    text-transform: uppercase;
+}
 
-
-/* Classes */
+/* Menu */
 
 .menu {
+    background-color: var(--primaryLight);
     height: 80px;
-    width: 1440px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: var(--primaryDark);
+    text-align: center;
+    padding: 0px 40px;
+    line-height: 80px;
+    text-decoration: none;
+}
+
+/* Global */
+.button {
+    height: 60px;
+    width: 240px;
+    background-color: var(--primaryLight);
+    color: var(--primaryDark);
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.2));
+    line-height: 60px;
+    text-align: center;
     justify-content: center;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.spacer1 {
+    margin: 0 auto;
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0,0,0,0);
+    position: relative;
+    display: block;
+}
+
+.spacer2 {
+    margin: 0 auto;
+    width: 100%;
+    height: 20px;
+    background-color: rgba(0,0,0,0);
+    position: relative;
+    display: block;
+}
+
+.spacer3 {
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    position: relative;
+    display: block;
 }
 
 /* Main Opener */
 
-.containerMain div{
+.containerMain {
+    margin: 0 auto;
+    padding-top: 150px;
     height: 540px;
-    width: 1280px;
-    position: relative;
+    /*width: 1280px;*/
+    /*height: 55%;*/
+    width: 100%;
+    color: var(--primaryLight);
+    text-align: center;
+    position:relative;
     justify-content: center;
+    align-items: center;
+    align-content: center;
     background-image: url("https://images.unsplash.com/photo-1561130627-0456cca0bc4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2702&q=80");
     background-position: center;
     background-size: cover;
     display: block;
-  }
-
-.containerMain h1{
-    color: var(--primaryLight);
-    text-align: center;
-    width: 600px;
-    height: 100px;
-    position: relative;
-    justify-content: center;
-    align-items: center;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
