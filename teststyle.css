@@ -212,7 +212,7 @@ footer {
     max-height: 160px;
     color: var(--secondaryDark);
     text-align: center;
-    overflow: scroll;
+    overflow: hidden;
     margin-bottom: 80px;
 }
 
@@ -220,22 +220,27 @@ footer {
 
 .boxTripleContainer {
     display: inline-flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-content:center;
     width: 100%;
-    overflow-x: scroll;
+    background-color: var(--primaryLight);
     padding-left: 40px;
     padding-right: 40px;
 }
 
 .boxTriple {
-    margin: auto 20px;
+    display: inline-block;
+    margin: 20px 20px;
     height: 540px;
-    width: 400px;
+    min-width: 300px;
+    max-width: 400px;
+    /*width: 400px;*/
     background-color: var(--primaryLight);
     /*filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.2));*/
     border: 1px solid var(--secondaryLight);
     position:relative;
+    flex: 1 1 400px;
 }
 
 .boxTriple img {
@@ -245,21 +250,25 @@ footer {
 }
 
 .boxTriple h4 {
-    height: 36px;
-    width: 400px;
+    height: 36px; 
+    min-width: 300px;
+    max-width: 400px;
     vertical-align: top;
-    padding: 0px 40px;
+    padding: 0px 40px 10px 40px;
     color: var(--primaryDark);
     text-align: left;
     position: relative;
+    flex-wrap: wrap;
+    flex: 1 1 400px;
 }
 
 .boxTriple h6 {
-    width: 400px;
-    padding: 0px 40px;
+    padding: 0px 40px 10px 40px;
     color: var(--secondaryDark);
     text-align: left;
     position: relative;
+    flex-wrap: wrap;
+    flex: 1 1 400px;
     overflow: hidden;
 }
 
